@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    height: 1200px;
+}
+
+header {
+    width: 600px;
+    height: 167px;
+    flex-shrink: 0;
+    background-image: url("/img/anton-darius-FCrgmqqvl-w-unsplash\ \(1\).jpg");
+}
+
+.headerBack {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBackImg {
+    width: 600px;
+    height: 316px;
+    flex-shrink: 0;
+}
+
+.productDiv {
+    width: 508px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.itemTitle {
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    /* 60% */
+}
+
+.itemImg {
+    display: flex;
+    width: 70px;
+    height: 89px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 78.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.4px;
+    /* 125% */
+    letter-spacing: -1.574px;
+
+    opacity: 0.7200000286102295;
+}
+
+.itemDescription {
+    width: 358px;
+    color: #8B8B8B;
+    font-family: Smythe;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.itemPrice {
+    color: #000;
+    font-family: Smythe;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+}
+
+.addBtn {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+
+    stroke-width: 1.5px;
+    stroke: #DEDEDE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*! The Screen Size Setting */
+
+/* Styles for devices with a screen width less than 768px (typically mobile phones) */
+@media (max-width: 767px) {
+    /* Your CSS styles here */
+}
+
+/* Styles for devices with a screen width between 768px and 1024px (typically tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Your CSS styles here */
+}
+
+/* Styles for devices with a screen width greater than 1024px (typically desktops) */
+@media (min-width: 1024px) {
+    /* Your CSS styles here */
+}
